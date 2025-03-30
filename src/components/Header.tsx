@@ -15,8 +15,8 @@ const Header: React.FC = () => {
           <a href="#how-it-works" className="text-gray-700 hover:text-brand-purple transition-colors">Cách Thức</a>
           <a href="#pricing" className="text-gray-700 hover:text-brand-purple transition-colors">Bảng Giá</a>
           <a href="#faq" className="text-gray-700 hover:text-brand-purple transition-colors">FAQ</a>
-          <a href="https://m.me/your.facebook.page" target="_blank" rel="noopener noreferrer">
-            <Button className="btn-primary ml-4">Liên Hệ Ngay</Button>
+          <a href="https://zalo.me/0988499006" target="_blank" rel="noopener noreferrer">
+            <Button className="btn-primary ml-4">Liên Hệ Qua Zalo</Button>
           </a>
         </nav>
         <Button className="md:hidden bg-brand-orange hover:bg-orange-600 text-white">
