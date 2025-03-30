@@ -2,7 +2,6 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-import RegistrationModal from './RegistrationModal';
 
 const CTA: React.FC = () => {
   return (
@@ -14,14 +13,10 @@ const CTA: React.FC = () => {
         <p className="text-xl mb-8 max-w-2xl mx-auto">
           Hãy để chúng tôi giúp bạn tiếp cận hàng triệu khách hàng tiềm năng và đưa thương hiệu của bạn lên một tầm cao mới
         </p>
-        <RegistrationModal
-          trigger={
-            <Button className="bg-brand-orange hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg group">
-              ĐĂNG KÝ NGAY – NHẬN ƯU ĐÃI 50% PHÍ KHỞI TẠO
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          }
-        />
+        <Button className="bg-brand-orange hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg text-lg group">
+          ĐĂNG KÝ NGAY – NHẬN ƯU ĐÃI 50% PHÍ KHỞI TẠO
+          <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+        </Button>
       </div>
     </section>
   );
