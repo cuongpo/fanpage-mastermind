@@ -1,6 +1,9 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
+import RegistrationModal from './RegistrationModal';
+
 const Pricing: React.FC = () => {
   return <section id="pricing" className="py-20 bg-gradient-to-b from-white to-brand-lightPurple">
       <div className="container px-4 mx-auto">
@@ -43,7 +46,11 @@ const Pricing: React.FC = () => {
                   <span>Thiết lập SEO Facebook cơ bản.</span>
                 </li>
               </ul>
-              <Button className="w-full mt-6 btn-primary">ĐĂNG KÝ NGAY</Button>
+              <RegistrationModal
+                trigger={
+                  <Button className="w-full mt-6 btn-primary">ĐĂNG KÝ NGAY</Button>
+                }
+              />
             </div>
           </div>
 
@@ -89,4 +96,5 @@ const Pricing: React.FC = () => {
       </div>
     </section>;
 };
+
 export default Pricing;
