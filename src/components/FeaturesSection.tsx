@@ -38,7 +38,7 @@ const FeaturesSection: React.FC = () => {
           
           <FeatureCard
             icon={<Search className="h-12 w-12" />}
-            title="✅ SEO Facebook "đỉnh cao""
+            title="✅ SEO Facebook &quot;đỉnh cao&quot;"
             description="Tối ưu nội dung chuẩn thuật toán, giúp fanpage của bạn xuất hiện đầu tiên khi người dùng tìm kiếm."
           />
           
@@ -51,7 +51,7 @@ const FeaturesSection: React.FC = () => {
           <FeatureCard
             icon={<BrainCircuit className="h-12 w-12" />}
             title="✅ Quản lý nội dung thông minh"
-            description="Công cụ AI đề xuất nội dung "hot trend", tăng tương tác tự nhiên."
+            description="Công cụ AI đề xuất nội dung &quot;hot trend&quot;, tăng tương tác tự nhiên."
           />
           
           <FeatureCard
