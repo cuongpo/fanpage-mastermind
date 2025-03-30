@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Check } from 'lucide-react';
-
 const Pricing: React.FC = () => {
-  return (
-    <section id="pricing" className="py-20 bg-gradient-to-b from-white to-brand-lightPurple">
+  return <section id="pricing" className="py-20 bg-gradient-to-b from-white to-brand-lightPurple">
       <div className="container px-4 mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 title-gradient">Bảng Giá</h2>
@@ -20,7 +17,7 @@ const Pricing: React.FC = () => {
               <h3 className="text-2xl font-bold mb-2">💎 PHÍ KHỞI TẠO</h3>
               <div className="flex items-center justify-center">
                 <span className="text-lg line-through opacity-70">3.000.000đ</span>
-                <span className="text-4xl font-bold ml-3">1.500.000đ</span>
+                <span className="text-4xl font-bold ml-3">3.000.000đ</span>
               </div>
               <p className="mt-2 text-white/80">(một lần duy nhất)</p>
               <div className="bg-white text-brand-orange px-4 py-1 rounded-full inline-block mt-2 font-bold">
@@ -90,8 +87,6 @@ const Pricing: React.FC = () => {
           <p className="text-xl">Giảm 50% phí khởi tạo cho 100 khách hàng đầu tiên!</p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Pricing;
