@@ -49,7 +49,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-700 pt-6 mt-6 text-center text-gray-400 text-sm">
-          <p>© 2024 Trùm Social. Facebook™ là thương hiệu của Meta Platforms, Inc.</p>
+          <p>© 2024 Trùm Social™ là thương hiệu của Snowfox, Inc.</p>
         </div>
       </div>
     </footer>;
