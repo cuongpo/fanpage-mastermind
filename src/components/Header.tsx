@@ -9,7 +9,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex items-center">
           <Facebook className="h-8 w-8 text-brand-blue mr-2" />
-          <span className="text-2xl font-bold text-brand-purple">Nuôi Fanpage</span>
+          <span className="text-2xl font-bold text-brand-purple">Trùm Social</span>
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           <a href="#features" className="text-gray-700 hover:text-brand-purple transition-colors">Tính Năng</a>

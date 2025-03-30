@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
 
             <div className="mt-8 bg-white/20 backdrop-blur-sm p-4 rounded-lg">
               <p className="text-base">
-                Mệt mỏi vì đăng bài thủ công và tăng trưởng ì ạch? Để <strong>Nuôi Fanpage</strong> xử lý giúp bạn! Chúng tôi tự động hóa 50 fanpage vệ tinh để khuếch đại nội dung, đưa bạn lên TOP tìm kiếm Facebook, và dẫn dắt traffic thẳng về website/fanpage chính.
+                Mệt mỏi vì đăng bài thủ công và tăng trưởng ì ạch? Để <strong>Trùm Social</strong> xử lý giúp bạn! Chúng tôi tự động hóa 50 fanpage vệ tinh để khuếch đại nội dung, đưa bạn lên TOP tìm kiếm Facebook, và dẫn dắt traffic thẳng về website/fanpage chính.
               </p>
             </div>
           </div>

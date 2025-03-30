@@ -61,7 +61,7 @@ const FeaturesSection: React.FC = () => {
           />
           
           <div className="feature-card bg-gradient-to-r from-brand-purple to-brand-blue text-white">
-            <h3 className="text-xl font-bold mb-4">Lý Do Chọn Nuôi Fanpage?</h3>
+            <h3 className="text-xl font-bold mb-4">Lý Do Chọn Trùm Social?</h3>
             <ul className="space-y-2">
               <li className="flex items-start">
                 <span className="mr-2">✨</span>

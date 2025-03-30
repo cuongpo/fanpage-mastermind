@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <Facebook className="h-8 w-8 text-brand-blue mr-2" />
-              <span className="text-2xl font-bold">Nuôi Fanpage</span>
+              <span className="text-2xl font-bold">Trùm Social</span>
             </div>
             <p className="mb-4 text-gray-300">
               Giải pháp toàn diện giúp bạn phát triển thương hiệu trên Facebook một cách tự động và hiệu quả
@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0 mt-1" />
-                <span>contact@nuoifanpage.vn</span>
+                <span>contact@trumsocial.vn</span>
               </li>
               <li className="flex items-start">
                 <MapPin className="h-5 w-5 mr-2 flex-shrink-0 mt-1" />
@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="border-t border-gray-700 pt-6 mt-6 text-center text-gray-400 text-sm">
-          <p>© 2024 Nuôi Fanpage. Facebook™ là thương hiệu của Meta Platforms, Inc.</p>
+          <p>© 2024 Trùm Social. Facebook™ là thương hiệu của Meta Platforms, Inc.</p>
         </div>
       </div>
     </footer>
