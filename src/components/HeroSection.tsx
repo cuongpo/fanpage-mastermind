@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+import RegistrationModal from './RegistrationModal';
 
 const HeroSection: React.FC = () => {
   return (
@@ -16,17 +18,17 @@ const HeroSection: React.FC = () => {
             </p>
 
             <div className="space-y-4 md:space-y-0 md:space-x-4 md:flex">
-              <a href="https://m.me/your.facebook.page" target="_blank" rel="noopener noreferrer">
-                <Button className="w-full md:w-auto btn-primary group">
-                  BẮT ĐẦU NGAY – GIẢM 50% PHÍ KHỞI TẠO!
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                </Button>
-              </a>
-              <a href="#features">
-                <Button variant="outline" className="w-full md:w-auto bg-white text-brand-purple hover:bg-gray-100">
-                  Tìm Hiểu Thêm
-                </Button>
-              </a>
+              <RegistrationModal 
+                trigger={
+                  <Button className="w-full md:w-auto btn-primary group">
+                    BẮT ĐẦU NGAY – GIẢM 50% PHÍ KHỞI TẠO!
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                  </Button>
+                }
+              />
+              <Button variant="outline" className="w-full md:w-auto bg-white text-brand-purple hover:bg-gray-100">
+                Tìm Hiểu Thêm
+              </Button>
             </div>
 
             <div className="mt-8 bg-white/20 backdrop-blur-sm p-4 rounded-lg">
@@ -57,9 +59,11 @@ const HeroSection: React.FC = () => {
                       <div className="text-sm text-gray-600">Fanpage vệ tinh</div>
                     </div>
                   </div>
-                  <a href="https://m.me/your.facebook.page" target="_blank" rel="noopener noreferrer">
-                    <Button className="w-full btn-primary">LIÊN HỆ NGAY</Button>
-                  </a>
+                  <RegistrationModal
+                    trigger={
+                      <Button className="w-full btn-primary">ĐĂNG KÝ ƯU ĐÃI</Button>
+                    }
+                  />
                 </div>
               </div>
             </div>
