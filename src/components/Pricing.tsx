@@ -44,8 +44,8 @@ const Pricing: React.FC = () => {
                   <span>Thiết lập SEO Facebook cơ bản.</span>
                 </li>
               </ul>
-              <a href="https://m.me/your.facebook.page" target="_blank" rel="noopener noreferrer">
-                <Button className="w-full mt-6 btn-primary">LIÊN HỆ NGAY</Button>
+              <a href="https://zalo.me/0988499006" target="_blank" rel="noopener noreferrer">
+                <Button className="w-full mt-6 btn-primary">ĐĂNG KÝ NGAY QUA ZALO</Button>
               </a>
             </div>
           </div>
