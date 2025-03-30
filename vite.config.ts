@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '',
+  base: '/fanpage-mastermind/',
   server: {
     host: "::",
     port: 8080,
@@ -21,8 +21,8 @@ export default defineConfig({
     outDir: 'dist',
     assetsDir: 'assets',
     rollupOptions: {
-      input: path.resolve(__dirname, 'index.html'),
       output: {
+        format: 'iife',
         entryFileNames: 'assets/[name].[hash].js',
         chunkFileNames: 'assets/[name].[hash].js',
         assetFileNames: 'assets/[name].[hash].[ext]'
