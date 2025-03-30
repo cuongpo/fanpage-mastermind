@@ -1,10 +1,7 @@
-
 import React from 'react';
 import { Facebook, Phone, Mail, MapPin } from 'lucide-react';
-
 const Footer: React.FC = () => {
-  return (
-    <footer className="bg-brand-darkPurple text-white pt-16 pb-6">
+  return <footer className="bg-brand-darkPurple text-white pt-16 pb-6">
       <div className="container px-4 mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
@@ -37,7 +34,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <Phone className="h-5 w-5 mr-2 flex-shrink-0 mt-1" />
-                <span>090x.xxx.xxx (Zalo/Tele)</span>
+                <span>0988.499.006 (Zalo/Tele)</span>
               </li>
               <li className="flex items-start">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0 mt-1" />
@@ -55,8 +52,6 @@ const Footer: React.FC = () => {
           <p>© 2024 Trùm Social. Facebook™ là thương hiệu của Meta Platforms, Inc.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
