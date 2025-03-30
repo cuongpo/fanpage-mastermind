@@ -16,7 +16,7 @@ const Pricing: React.FC = () => {
             <div className="bg-brand-purple text-white p-6 text-center">
               <h3 className="text-2xl font-bold mb-2">💎 PHÍ KHỞI TẠO</h3>
               <div className="flex items-center justify-center">
-                <span className="text-lg line-through opacity-70">3.000.000đ</span>
+                <span className="text-lg line-through opacity-70">6.000.000đ</span>
                 <span className="text-4xl font-bold ml-3">3.000.000đ</span>
               </div>
               <p className="mt-2 text-white/80">(một lần duy nhất)</p>
